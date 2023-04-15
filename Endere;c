@@ -1,0 +1,56 @@
+public class Endereco{
+   private String logradouro;
+   private String nome;
+   private Integer numero;
+   private Integer complemento;
+   private Integer cep;
+   private Integer cidade;
+   private Integer estado;
+   
+    public Endereco(){}
+    
+    public String getlogradouro(){
+        return logradouro;
+    }
+    public void setlogradouro(String logradouro){
+        this.logradouro = logradouro;
+    }
+    public String getnome(){
+        return nome;
+    }
+    public void setnome(String nome){
+        this.nome = nome;
+    }
+    public Integer getnumero(){
+        return numero;
+    }
+    public void setnumero(Integer numero){
+        this.numero = numero;
+    }
+    public Integer getcomplemento(){
+        return complemento;
+    }
+    public void setcomplemento(Integer complemento){
+        this.complemento = complemento;
+    }
+    public Integer getcep(){
+        return cep;
+    }
+    public void setcep(Integer cep){
+        this.cep = cep;
+    }
+     public Integer getcidade(){
+        return cidade;
+    }
+    public void setcidade(Integer cidade){
+        this.cidade = cidade;
+    }
+     public Integer getestado(){
+        return estado;
+    }
+    public void setestado(Integer estado){
+        this.estado = estado;
+    }
+
+    
+}
