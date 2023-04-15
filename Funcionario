@@ -1,0 +1,38 @@
+public virtual class Funcionario{
+    private String nome;
+    private Integer rg;
+    private String cpf;
+    private Integer matricula;
+    private String email;
+    public Endereco endereco = new Endereco();
+    
+    public Funcionario(String nome, Integer rg, String cpf,
+                  Integer matricula, String email){ 
+    this.setnome(nome);
+    this.setrg(rg);
+    this.setcpf(cpf);
+    //this.setmatricula(matricula);
+    //this.setemail(email);
+   } 
+    public Funcionario(){}
+  
+    public String getnome(){
+        return nome;
+    }
+    public void setnome(String nome){
+        this.nome = nome;
+    }
+    public Integer getrg(){
+        return rg;
+    }
+    public void setrg(Integer rg){
+        this.rg = rg;
+    }
+    public String getcpf(){
+        return cpf;
+    }
+    public void setcpf(String cpf){
+        this.cpf = cpf;
+    }
+    
+}
