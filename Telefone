@@ -1,0 +1,34 @@
+public class Telefone extends Funcionario{
+  private Integer codigodopais;
+  private Integer ddd;
+  private Integer numero;
+  //public String exibirEndereco(){};
+   
+    public Telefone(Integer codigodopais, Integer ddd, Integer numero){ 
+      this.setcodigodopais(codigodopais);
+      this.setddd(ddd);
+      this.setnumero(numero);
+ }
+
+    public Telefone(){} // Adicionando um construtor padrão vazio
+
+    public Integer getcodigodopais(){
+        return codigodopais; 
+    }
+     public void setcodigodopais(Integer codigodopais){
+        this.codigodopais = codigodopais;
+    }
+    public Integer getddd(){
+        return ddd; 
+    }
+     public void setddd(Integer ddd){
+        this.ddd = ddd;
+    }
+     public Decimal getnumero(){
+        return numero; 
+    }
+     public void setnumero(Integer numero){
+        this.numero = numero;
+    }
+
+}
